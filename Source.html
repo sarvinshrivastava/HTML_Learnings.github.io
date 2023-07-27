@@ -21,8 +21,10 @@
             <dd>
                   It contains the visible content of the web page, such as text, images, links, and other HTML elements.
             </dd>
+            <!--Syntax of any web-page-->
             <p>
-                  The general layout of any website is:<br>
+                  The general syntax of any website is:<br>
+                  <pre>
                   <code>
                         &lt;!DOCTYPE html&gt;<br>
                         &lt;html&gt;<br>
@@ -34,6 +36,7 @@
                         &lt;/body&gt;<br>
                         &lt;/html&gt;<br>
                   </code>
+                  </pre>
             </p>
             <dt><strong>heading</strong></dt>
             <dd>
@@ -63,8 +66,10 @@
             <dd>
                   It is used inside the ul or ol tag.
             </dd>
+            <!--Syntax for a list tag-->
             <p>
                   Syntax for a list: <br>
+                  <pre>
                   <code>
                         &lt;ul&gt;<br>
                         &lt;li&gt;Item 1&lt;/li&gt;<br>
@@ -72,7 +77,82 @@
                         &lt;li&gt;Item 3&lt;/li&gt;<br>
                         &lt;/ul&gt;<br>
                   </code>
+                  </pre>
             </p>
+            <dt><strong>&lt;div&gt;</strong></dt>
+            <dd>
+                  It is a generic container used to apply css on a group of elements / tags.
+            </dd>
+            <dt><strong>&lt;span&gt;</strong></dt>
+            <dd>
+                  It is a generic container used to apply css at a specific region withen a tag.
+            </dd>
+            <dt><strong>&lt;table&gt;</strong></dt>
+            <dd>
+                  It is used to create a table.
+            </dd>
+            <dt><strong>&lt;tr&gt;</strong></dt>
+            <dd>
+                  It  defines a row in a table.
+            </dd>
+            <dt><strong>&lt;th&gt;</strong></dt>
+            <dd>
+                  It defines a header cell in a table.
+            </dd>
+            <dt><strong>&lt;td&gt;</strong></dt>
+            <dd>
+                  It defines a standard cell in a table.
+            </dd>
+            <!--Syntax for a table tag-->
+            <p>
+                  Syntax for a table tag:<br>
+                  <pre>
+                  <code>
+                        &lt;table border="1"><br>
+                              <br>
+                              &lt;tr><br>
+                                    &lt;th&gt;Product Name&lt;/th&gt;<br>
+                                    &lt;th&gt;Price&lt;/th&gt;<br>
+                                    &lt;th&gt;Stock Quantity&lt;/th&gt;<br>
+                              &lt;/tr&gt;<br>
+                              &lt;tbody&gt;<br>
+                                    &lt;tr&gt;<br>
+                                          &lt;td&gt;Product A&lt;/td&gt;<br>
+                                          &lt;td&gt;$25.99&lt;/td&gt;<br>
+                                          &lt;td&gt;150&lt;/td&gt;<br>
+                                    &lt;/tr&gt;<br>
+                                    &lt;tr&gt;<br>
+                                          &lt;td&gt;Product B&lt;/td&gt;<br>
+                                          &lt;td&gt;$19.99&lt;/td&gt;<br>
+                                          &lt;td&gt;75&lt;/td&gt;<br>
+                                    &lt;/tr&gt;<br>
+                              &lt;/tbody&gt;<br>
+                        &lt;/table&gt;<br>
+                  </code>
+                  </pre>
+                  <br>
+                  Result:
+                  <table border="1">
+                  <tr>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Stock Quantity</th>
+                  </tr>
+                  <tbody>
+                        <tr>
+                              <td>Product A</td>
+                              <td>$25.99</td>
+                              <td>150</td>
+                        </tr>
+                        <tr>
+                              <td>Product B</td>
+                              <td>$19.99</td>
+                              <td>75</td>
+                        </tr>
+                  </tbody>
+                  </table>
+            </p>
+
       </ol>
       </body>
 </html>
